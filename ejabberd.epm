@@ -1,0 +1,3 @@
+[{deps, []},
+ {prebuild_command, "cd src; ./configure"},
+ {build_command, "cd src; make"}].
