@@ -2,4 +2,4 @@
    {"exmpp", []}
  ]},
  {prebuild_command, "cd src; ./configure"},
- {build_command, "cd src; make"}].
+ {build_command, "cd src; make; mkdir -p ../ebin; mv *.beam ../ebin/; mv *.app ../ebin/"}].
